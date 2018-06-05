@@ -38,9 +38,8 @@ Explored the Jasmine spec file in **./jasmine/spec/feedreader.js** and review th
 
 Edited the `allFeeds` variable in **./js/app.js** to make the provided test fail and see how Jasmine visualizes this failure in Ir application.
 
-![alt text](http://gifmaker.me/files/download/home/20180604/17/VTPbWHF1tIKRzb6au3DZX0/output_2xf8hE.gif)
-
 Returned the `allFeeds` variable to a passing state.
+
 Wrote a test that loops through each feed in the `allFeeds` object and ensured it has a URL defined and that the URL is not empty.
 
 Wrote a test that loops through each feed in the `allFeeds` object and ensured it has a name defined and that the name is not empty.
@@ -60,9 +59,7 @@ Wrote a test suite named `"New Feed Selection"`.
 Wrote a test that ensured when a new feed is loaded by the `loadFeed` function that the content actually changes.
 
 No test should be dependent on the results of another.
-![alt text](http://gifmaker.me/files/download/home/20180604/17/CJ0H8MzrR6M5jiIjkNiKpO/output_ncYtYU.gif)
 
 Callbacks were used to ensure that feeds are loaded before they are tested.
 
 Wrote a README file detailing all steps required to successfully run the application. 
-![alt text](http://gifmaker.me/files/download/home/20180604/17/jpiPSTBWTS5vDOqKFVvo7D/output_cRejIf.gif)
